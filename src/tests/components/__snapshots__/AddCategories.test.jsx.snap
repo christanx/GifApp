@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <AddCategories /> Component successful 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    id="search"
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+  <input
+    id="searchHidden"
+    type="hidden"
+    value=""
+  />
+</form>
+`;

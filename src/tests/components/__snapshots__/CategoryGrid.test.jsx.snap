@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <CategoryGrid /> Component successful 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    Goku
+  </h3>
+  <span>
+    loading...
+  </span>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing <CategoryGrid /> El useFetchGif debe retornar items 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    Goku
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <CategoryGridItem
+      id="01"
+      key="01"
+      title="testing"
+      url="http://localhost"
+    />
+    <CategoryGridItem
+      id="02"
+      key="02"
+      title="testing"
+      url="http://localhost"
+    />
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing CategoryGridItem Component successful 1`] = `
+<article
+  className="card-grid-item animate__animated animate__fadeInUp"
+>
+  <img
+    alt="Testing"
+    src="/"
+  />
+  <p>
+    Testing
+  </p>
+</article>
+`;

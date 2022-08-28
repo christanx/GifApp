@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const CategoryGridItem = ({ url, title }) => {
     return (
@@ -7,6 +8,11 @@ const CategoryGridItem = ({ url, title }) => {
             <p>{title}</p>
         </article>
     )
+}
+
+CategoryGridItem.propTypes = {
+    url: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
 }
 
 export default CategoryGridItem

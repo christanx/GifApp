@@ -7,6 +7,7 @@ const AddCategories = ({ setCategories }) => {
     const handleChange = (e) => setSearchText(e.target.value);
     const handleSubmit = (e) => {
         e.preventDefault();
+       
         if (searchText.trim().length && searchText !== '') {
             setCategories(categories => [searchText, ...categories]);
             setSearchText('');
@@ -15,7 +16,8 @@ const AddCategories = ({ setCategories }) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type="text" placeholder='Search' onChange={handleChange} value={searchText} />
+            <input id='search' type="text" placeholder='Search' onChange={handleChange} value={searchText} />
+            <input id='searchHidden' type="hidden" value={searchText} />
         </form>
     )
 }
